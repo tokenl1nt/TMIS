@@ -1,0 +1,15 @@
+[project]
+name = "tmsi-public"
+version = "0.1.0"
+description = "Public benchmark data and evaluation scripts for TMSI."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "llama-index-core>=0.12",
+  "llama-index-embeddings-openai>=0.3",
+  "ollama>=0.6.2",
+  "openai>=2.0",
+]
+
+[tool.uv]
+package = false
